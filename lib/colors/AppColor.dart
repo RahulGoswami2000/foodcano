@@ -13,5 +13,4 @@ class AppColors{
   static final Color mainBlackColor = const Color(0xFF332d2b);
   //static final Color yellowColor = const Color(0xFFfa7552);
   static final Color yellowColor = const Color(0xFFffd379);
-
 }
