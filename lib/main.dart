@@ -1,6 +1,7 @@
 
 
 import 'package:flutter/material.dart';
+import 'package:foodcano/All_Pages/LoginPage.dart';
 import 'package:foodcano/colors/AppColor.dart';
 import 'package:foodcano/home/main_food_page.dart';
 import 'package:get/get.dart';
@@ -33,7 +34,7 @@ class MyApp extends StatelessWidget {
                 onPressed: () {},
               )
             ]),
-        body: MainFoodPage(),
+        body: LoginPage(),
       ),
     );
   }
