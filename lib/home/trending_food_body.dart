@@ -37,6 +37,7 @@ class _TrendingFoodBodyState extends State<TrendingFoodBody> {
   Widget build(BuildContext context) {
     return Column(
       children: [
+        //slider section
         Container(
           height: Dimensions.pageView,
           // color: Colors.blueGrey,
@@ -47,6 +48,7 @@ class _TrendingFoodBodyState extends State<TrendingFoodBody> {
                 return _buildPageItem(index);
               }),
         ),
+        //dots
         new DotsIndicator(
           dotsCount: 5,
           position: _currPageValue,
